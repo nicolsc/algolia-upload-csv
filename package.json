@@ -1,0 +1,16 @@
+{
+  "name": "algolia-upload-csv",
+  "description" : "Upload a CSV file content to an Algolia index",
+  "version": "0.1.0",
+  "main": "upload.js",
+  "scripts": {
+    "test": "echo \"Not yet :-/\" && exit 1"
+  },
+  "author": "nicolsc",
+  "license": "ISC",
+  "dependencies": {
+    "algolia-search"  : "1.7.x",
+    "csv-streamify"   : "1.0.0",
+    "colors"          : "1.0.x"
+  }
+}
